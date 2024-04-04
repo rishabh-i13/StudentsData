@@ -1,0 +1,19 @@
+current directory: D:/Ruby Backend/Students/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: D:/Ruby Backend/Students/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240404-2836-b6kfe5 sitelibdir\=./.gem.20240404-2836-b6kfe5 clean
+
+current directory: D:/Ruby Backend/Students/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240404-2836-b6kfe5 sitelibdir\=./.gem.20240404-2836-b6kfe5
+generating stringio-x64-mingw-ucrt.def
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: D:/Ruby Backend/Students/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240404-2836-b6kfe5 sitelibdir\=./.gem.20240404-2836-b6kfe5 install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240404-2836-b6kfe5
+
+current directory: D:/Ruby Backend/Students/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240404-2836-b6kfe5 sitelibdir\=./.gem.20240404-2836-b6kfe5 clean
