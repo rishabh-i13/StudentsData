@@ -4,7 +4,7 @@
     <% @students.each do |std| %>
     <tr>
         <td><%= link_to std.name,student_path(std)%></td>
-        <td><%= gi std.age%></td>
+        <td><%=  std.age%></td>
         <td><%= button_to 'Edit',edit_student_path(std),method:'get'%></td>
         <td><%= button_to 'Delete',student_path(std),method:'delete',data:{confirm:"Are you Sure?"} %></td>
     </tr>
@@ -13,4 +13,4 @@
 </table>
 <h4 border>
 <%=link_to "Add new Student", new_student_path %>
-</h4>
+</h4>   
